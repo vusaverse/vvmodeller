@@ -17,7 +17,7 @@
 #' @export
 coord_plot <- function(data, group_var, group_func=mean, print_table=FALSE)
 {
-  all_results_report=desc_groups(data = data, group_var = group_var, group_func = group_func)
+  all_results_report = vvconverter::desc_groups(data = data, group_var = group_var, group_func = group_func)
 
   # excluding group_var column
   all_results=all_results_report[,2:ncol(all_results_report)]

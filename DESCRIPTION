@@ -17,15 +17,15 @@ Imports:
     graphics,
     grid,
     gridExtra,
-    ROCR,
-    scales,
     stats,
     stringr,
     usethis,
+    vvconverter,
     vvmover,
     vvsculptor,
     XML
 Remotes:
+    vusaverse/vvconverter,
     vusaverse/vvmover,
     vusaverse/vvsculptor
 Depends: 
