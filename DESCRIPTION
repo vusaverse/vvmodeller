@@ -1,0 +1,33 @@
+Package: vvmodeller
+Title: Create Plots
+Version: 0.3.8.9000
+Authors@R: c(
+    person("Hadley", "Wickham", email = "hadley@rstudio.com", role = "cre"),
+    person("Winston", "Chang", email = "winston@rstudio.com", role = "aut"),
+    person("RStudio", role = c("cph", "fnd")))
+Description: Numerous plots functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    dplyr,
+    GGally,
+    ggplot2,
+    graphics,
+    grid,
+    gridExtra,
+    ROCR,
+    scales,
+    stats,
+    stringr,
+    usethis,
+    vvmover,
+    vvsculptor,
+    XML
+Remotes:
+    vusaverse/vvmover,
+    vusaverse/vvsculptor
+Depends: 
+    R (>= 2.10)
+LazyData: true

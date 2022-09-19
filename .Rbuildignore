@@ -1,0 +1,5 @@
+^vvmodeller\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+build_vvmodeller.R
+install_local_packages.R
