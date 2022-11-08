@@ -1,10 +1,7 @@
 Package: vvmodeller
 Title: Create Plots
 Version: 0.3.8.9000
-Authors@R: c(
-    person("Hadley", "Wickham", email = "hadley@rstudio.com", role = "cre"),
-    person("Winston", "Chang", email = "winston@rstudio.com", role = "aut"),
-    person("RStudio", role = c("cph", "fnd")))
+Authors@R: person("Tomer", "Iwan", , "t.iwan@vu.nl", role = c("aut", "cre", "cph"))
 Description: Numerous plots functions.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -24,6 +21,10 @@ Imports:
     vvmover,
     vvsculptor,
     XML
+Suggests:
+    vvconverter,
+    vvmover,
+    vvsculptor
 Remotes:
     vusaverse/vvconverter,
     vusaverse/vvmover,
